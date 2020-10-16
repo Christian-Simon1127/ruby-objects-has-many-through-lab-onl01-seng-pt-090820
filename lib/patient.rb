@@ -25,7 +25,11 @@ class Patient
   end
   
   def doctors
+<<<<<<< HEAD
     self.appointments.collect { |appointment|
+=======
+    self.appointments.select { |appointment|
+>>>>>>> 95be522103e18b87f80f229e0fe422bd82d1c346
       appointment.doctor
     }
   end
